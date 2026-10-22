@@ -1,0 +1,149 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-10-20T11:33:58Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.28"
+  },
+  "name": "flexgpu-v26.12.00-pvw2",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/35fae9af-cffd-4a46-b698-16ad5611febe",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe",
+      "name": "flexgpu",
+      "versionInfo": "v26.12.00-pvw2",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/flexgpu",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "comment": "FlexGPU driver release"
+    },
+    {
+      "SPDXID": "SPDXRef-package-57cb6576-5301-47b1-923a-b254ae9d7d2d",
+      "name": "FreeRTOS Real Time Kernel",
+      "versionInfo": "V11.3.2",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "homepage": "https://sourceforge.net/projects/freertos",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: unknown",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:amazon:aws-freertos-kernel:11.3.2:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:amazon:freertos:11.3.2:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:o:amazon:freertos:11.3.2:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        }
+      ],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-1caf949b-67ab-493f-91a9-0b858c859dc8",
+      "name": "mattconte/tlsf",
+      "versionInfo": "20200329-snapshot-deff9ab5",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: mattconte/tlsf",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-5c39c4dc-410c-487d-88a4-e254877b3ec5",
+      "name": "mpaland/printf",
+      "versionInfo": "v4.0.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: mpaland",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "fcb0cb3b-dc22-49c0-8f56-9bff0e522c6c",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/mpaland/printf@v4.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-950c7df5-e3d2-4fe7-a6ae-ba0911d8d51c",
+      "name": "red-rocket-computing/backtrace",
+      "versionInfo": "20241114-snapshot-9f963f96",
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "MPL-2.0",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: unknown",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-c3891c0d-a0a5-4efc-adb3-add2323edd5f",
+      "name": "VeriSilicon/VGLite_4.x",
+      "versionInfo": "REL_4.0.135_20260609",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: unknown",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-1caf949b-67ab-493f-91a9-0b858c859dc8"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-57cb6576-5301-47b1-923a-b254ae9d7d2d"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-5c39c4dc-410c-487d-88a4-e254877b3ec5"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-950c7df5-e3d2-4fe7-a6ae-ba0911d8d51c"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-35fae9af-cffd-4a46-b698-16ad5611febe",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-c3891c0d-a0a5-4efc-adb3-add2323edd5f"
+    }
+  ]
+}

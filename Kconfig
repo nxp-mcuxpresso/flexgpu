@@ -1,0 +1,4 @@
+menu "flexgpu"
+    config MCUX_COMPONENT_middleware.flexgpu
+        bool "NXP FlexGPU driver library"
+endmenu
